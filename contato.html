@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+    <head>
+      <meta charset="UTF-8">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Rubik:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="reset.css">
+        <title>Portifólio Do Leandro</title>
+
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div>
+              <h1><img class="logo" src="../imagens/opai.jpeg"></h1>
+
+              <div class="titulo">
+                <h1 >Portifólio</h1>
+                <h1 >Do Leandro</h1>
+              </div>
+              <nav>
+                <div class="menu">
+                  <ul class="itensgeral">
+                      <li class="itens"><a href="index.html" >Home</a></li>
+                      <li class="itens"><a href="sobre.html" >Sobre</a>
+                        <ul>
+                          <li><a href="sobre.html" >Qualificações</a></li>
+                          <li><a href="sobre.html" >Objetivos</a></li>
+                        </ul>
+                      </li>
+                      <li class="itens" type="text./css"><a href="contato.html">Contato</a>
+                        <ul>
+                          <li><a href="contato.html">Formulário</a></li>
+                          <li><a href="contato.html">Redes Sociais</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+        </header>
+        <main>
+          <h1 class="tituloformulario">FORMULÁRIO</h1>
+          <p class="complete">COMPLETE SUAS INFORMAÇÕES<br>PARA ENTRAR EM CONTATO</p>
+        <section>
+            <form class="formulario" id="formulario">
+              <fieldset>
+                <div class="letraform">
+                  <label id="nome" class="lulu" for="nome"><strong>Nome Completo:</strong></label>
+                  <input type="name" name="nome" id="nomef" required>
+                  <span class="msg-nome"></span>
+                </div>
+
+                <div class="letraform">
+                  <label id="data" class="lulu"for="data">Data de Nascimento:</label>
+                  <input type="date" name="data"  id="dataf"required>
+                  <scan class="msg-data"></scan>
+                </div>
+
+                <div class="letraform">
+                  <label id="email" class="lulu" for="email">Email:</label>
+                  <input type="email" name="email" id="emailf"  required>
+                  <span class="msg-email"></span>
+                </div>
+
+                <div class="letraform">
+                    <label id="coment"class="lulu" for="comentario">Deixe um Comentário:</label>
+                    <input class="coment"type="text" id="comentariof"name="comentario"  required>
+                    <scan class="msg-coment"></scan>
+                </div>
+
+                <div>
+                    <button id="button"class="botaoenviar"type="button" name="button" onclick="CadastroP()">Enviar</button>
+                    <button class="botaolimpar"type="reset" name="button">Limpar</button>
+                </div>
+
+                <h1 class="tituloconfirmacao">Confirmação</h1>
+                <label class="respostas" for="nomec">Nome: </label>
+                <label class="respostas1" id="nomec"></label><br>
+                <label class="respostas" for="datac">Data de Nascimento: </label>
+                <label class="respostas1" id="datac"></label><br>
+                <label class="respostas" for="emailc">Email: </label>
+                <label class="respostas1" id="emailc"></label>
+                <label class="respostas" for="comentarioc">Comentário: </label>
+                <label class="respostas1" id="comentarioc"></label>
+
+              </fieldset>
+
+            </form>
+        </section>
+        <aside class="lateral">
+              <h1>Redes Sociais para contato</h1>
+                <ul>
+                  <br><li>Instagram: @leeandroartilha</li><br>
+                  <li>Linkedin: leandroartilha</li><br>
+                  <li>Facebook: Leandro Artilha</li><br>
+                  <li>Twitter: @leandroartilha</li>
+                </ul>
+        </aside>
+
+
+        <address class="contato2">
+          <h1 class="titulocontato">CONTATO:</h1><br>
+          <p1 class="emailcontato">Email:  leandro.artilha@gmail.com</p1><br><br>
+          <p2 class="numerocontato">Celular:  11 94026-4770</p2>
+
+        </address>
+
+
+
+        </main>
+        <footer class="footer">
+                <div class="foot">
+                  <h1 class="copy">©Copyright 2021</h1>
+                  <img class="insta"src="../imagens/insta.png">
+                  <img class="linkedin" src="../imagens/linkedin.svg">
+                </div>
+
+        </footer>
+      </body>
+
+      <script type="text/javascript" src="validacao.js"></script>
+
+
+</html>
